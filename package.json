@@ -1,0 +1,54 @@
+{
+  "name": "palestine-monetary-authority-exchange-rate",
+  "version": "1.2.6",
+  "description": "Official Palestine Monetary Authority (Palestine) daily exchange rates — 4 currencies vs ILS, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
+  "keywords": [
+    "pma",
+    "palestine",
+    "monetary",
+    "authority",
+    "exchange-rate",
+    "exchange-rates",
+    "currency",
+    "forex",
+    "fx",
+    "ils",
+    "central-bank",
+    "official-rates",
+    "palestine",
+    "api",
+    "typescript"
+  ],
+  "homepage": "https://allratestoday.com/central-bank-rates-api/pma/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/palestine-monetary-authority-exchange-rate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/palestine-monetary-authority-exchange-rate/issues"
+  },
+  "license": "MIT",
+  "author": "AllRatesToday <hello@allratestoday.com> (https://allratestoday.com)",
+  "type": "module",
+  "main": "./index.cjs",
+  "module": "./index.mjs",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.mjs",
+    "index.cjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
