@@ -1,6 +1,6 @@
 {
   "name": "palestine-monetary-authority-exchange-rate",
-  "version": "1.2.6",
+  "version": "1.3.0",
   "description": "Official Palestine Monetary Authority (Palestine) daily exchange rates — 4 currencies vs ILS, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "pma",
