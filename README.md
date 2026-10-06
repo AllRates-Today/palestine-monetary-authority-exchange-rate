@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'ILS', { apiKey: 'art_live_...' });
 {
   bank: 'pma',
   name: 'Palestine Monetary Authority',
-  rate_date: '2026-09-27',   // Palestine Monetary Authority's own publication date
+  rate_date: '2026-10-06',   // Palestine Monetary Authority's own publication date
   source: 'USD',
   target: 'ILS',
-  rate: 3.0475,
+  rate: 3.0597,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -113,10 +113,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'pma',
   name: 'Palestine Monetary Authority',
-  rate_date: '2026-09-27',
+  rate_date: '2026-10-06',
   rates: [
-    { "base": "USD", "quote": "ILS", "type": "sell", "value": 3.0475 },
-    { "base": "USD", "quote": "ILS", "type": "buy", "value": 3.0443 },
+    { "base": "USD", "quote": "ILS", "type": "sell", "value": 3.0597 },
+    { "base": "USD", "quote": "ILS", "type": "buy", "value": 3.0558 },
     // … the rest of the published table (4 currencies vs ILS)
   ],
   disclaimer: '…'
@@ -156,7 +156,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'palestine-monetary-authority-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'ILS', from: '2026-01-01', to: '2026-09-27' },
+  { source: 'USD', target: 'ILS', from: '2026-01-01', to: '2026-10-06' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -169,11 +169,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'ILS',
   from: '2026-01-01',
-  to: '2026-09-27',
+  to: '2026-10-06',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-27', rate: 3.0475, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-10-06', rate: 3.0597, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
