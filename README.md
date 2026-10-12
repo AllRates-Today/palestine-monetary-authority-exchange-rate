@@ -40,18 +40,18 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Palestine Monetary Authority table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-11** by Palestine Monetary Authority — 8 rates. Updated 2026-10-11.
+Published **2026-10-12** by Palestine Monetary Authority — 8 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EGP | ILS | buy | 0.0584 |
-| EGP | ILS | sell | 0.0586 |
-| EUR | ILS | buy | 3.4273 |
-| EUR | ILS | sell | 3.4335 |
-| JOD | ILS | buy | 4.312 |
-| JOD | ILS | sell | 4.3281 |
-| USD | ILS | buy | 3.0615 |
-| USD | ILS | sell | 3.0643 |
+| EGP | ILS | buy | 0.0582 |
+| EGP | ILS | sell | 0.0583 |
+| EUR | ILS | buy | 3.4285 |
+| EUR | ILS | sell | 3.4325 |
+| JOD | ILS | buy | 4.3107 |
+| JOD | ILS | sell | 4.328 |
+| USD | ILS | buy | 3.0606 |
+| USD | ILS | sell | 3.0642 |
 
 Source: [Official rates published by PMA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/pma/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
