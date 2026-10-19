@@ -33,27 +33,30 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/pma').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Palestine Monetary Authority table](https://allratestoday.com/api/open/central-bank/pma/table.svg)](https://allratestoday.com/central-bank-rates-api/pma/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-18** by Palestine Monetary Authority — 8 rates. Updated 2026-10-18.
+<details>
+<summary>Table as text: published 2026-10-19 by Palestine Monetary Authority — 8 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EGP | ILS | buy | 0.0581 |
-| EGP | ILS | sell | 0.0583 |
-| EUR | ILS | buy | 3.4934 |
-| EUR | ILS | sell | 3.4995 |
-| JOD | ILS | buy | 4.3794 |
-| JOD | ILS | sell | 4.3963 |
-| USD | ILS | buy | 3.1094 |
-| USD | ILS | sell | 3.1126 |
+| EGP | ILS | buy | 0.0579 |
+| EGP | ILS | sell | 0.058 |
+| EUR | ILS | buy | 3.4805 |
+| EUR | ILS | sell | 3.4829 |
+| JOD | ILS | buy | 4.3656 |
+| JOD | ILS | sell | 4.3809 |
+| USD | ILS | buy | 3.0996 |
+| USD | ILS | sell | 3.1017 |
+
+</details>
 
 Source: [Official rates published by PMA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/pma/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -327,7 +330,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/palestine-monetary-authority-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/palestine-monetary-authority-exchange-rate)
 
 ## 📜 License
