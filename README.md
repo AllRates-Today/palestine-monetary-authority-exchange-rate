@@ -32,18 +32,18 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-10 by Palestine Monetary Authority — 8 rates. Updated 2026-11-10.</summary>
+<summary>Table as text: published 2026-11-11 by Palestine Monetary Authority — 8 rates. Updated 2026-11-11.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EGP | ILS | buy | 0.0583 |
-| EGP | ILS | sell | 0.0584 |
-| EUR | ILS | buy | 3.5349 |
-| EUR | ILS | sell | 3.5378 |
-| JOD | ILS | buy | 4.4338 |
-| JOD | ILS | sell | 4.4496 |
-| USD | ILS | buy | 3.148 |
-| USD | ILS | sell | 3.1503 |
+| EGP | ILS | buy | 0.0594 |
+| EGP | ILS | sell | 0.0596 |
+| EUR | ILS | buy | 3.5368 |
+| EUR | ILS | sell | 3.5408 |
+| JOD | ILS | buy | 4.4665 |
+| JOD | ILS | sell | 4.4838 |
+| USD | ILS | buy | 3.1712 |
+| USD | ILS | sell | 3.1745 |
 
 </details>
 
